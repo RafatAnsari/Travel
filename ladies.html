@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="jquery.js"></script>
+        <link rel="stylesheet" href="bootstrap.css">
+        <link rel="stylesheet" href="mystyle.css">
+        <link rel="stylesheet" href="tourstyle.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <script src="popper.js"></script>
+        <script src="bootstrap.js"></script>
+    </head>
+   
+        <script>
+        $(document).ready(function(){
+           $("#whatsapp").hide();
+           $("#instagram").hide();
+           $("#twitter").hide();
+           $("#facebook").hide();
+           
+	    $("#slide1").hover(function(){
+		$("#whatsapp").animate({height:"60px"},100);
+        });
+
+        $("#slide2").hover(function(){
+		$("#instagram").animate({height:"60px"},100);
+        });
+
+        $("#slide3").hover(function(){
+		$("#twitter").animate({height:"60px"},100);
+        });
+        
+        $("#slide4").hover(function(){
+		$("#facebook").animate({height:"60px"},100);
+        });
+		
+		
+	});
+   
+        </script>
+  <body>
+    <!--Header section-->
+    <header>
+      <div class="ban">
+        <img src="images\banner.jpg" style="opacity: 0.8;" width="500px" height="150px" alt="Travel with Us" id="banner" style="float: left;">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-3 col-sm-3 col-md-2 col-lg-2 col-xl-2">
+            <img src="logo1.jpg" alt="Travel with Us" class="logo" style="float: left;">
+            
+          </div>
+          <div class="col-5 col-sm-5 col-md-10 col-lg-10 col-xl-10">
+            <form class="form-inline" style="margin-top: 35px;position: relative; ">
+              <div class="input-group" style="position:absolute;right:5px">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search..." aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </div>
+            </form>
+          </div>
+
+          
+        </div>
+      </div>
+    </div>
+    </header>
+
+<!--nav section-->
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top" id="navtop"  >
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav mx-auto  ">
+          <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item" data-toggle="modal" data-target="#staticBackdrop">
+              <a class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item dropdown navbar-light bg-light " >
+              <a class="nav-link dropdown-toggle"  href="#" id="navbarScrollingDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+              Our Tours
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+              <li><a class="dropdown-item" href="local.html">Local Tours</a></li>
+              <li><a class="dropdown-item" href="international.html">Foreign Tours</a></li>
+              <li><a class="dropdown-item" href="ladies.html">Special Lady</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="Home.html">More....</a></li>
+              </ul>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="enquire.html">Enquire</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="index.html#reviews" id="feedback">Feedbacks</a>
+          </li>
+          </ul>
+      </div>
+  </div>
+</nav>
+
+  
+
+<!--Tours section-->
+<section id="inter" >
+   <div id="back">
+    <div class="container-fluid" id="local">  
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6"> 
+              
+                        <div class="box"> 
+                            <figure class="container">
+                                <img src="images\london1.jpg" alt="London" class="img-thumbnail"/>
+                                <figcaption>
+                                  <h3>London</h3>
+                                  <p></p>
+                                  <p style="text-align: justify;"><mark style="font-size:x-large;color:#f395ff;background-color: black;"><i><b>Welcome to London!</b></i></mark> London is one of the world's leading tourism destinations, and the city is home to an array of famous tourist attractions. No matter the time of the day or year, London is full of things to do. From iconic attractions such as the Buckingham Palace and Big Ben to more than 170 museums, from endless parklands to quirky cafes, there's something for all sorts of people.</p><a href="#" class="more">Read More</a>
+                                </figcaption>
+                              </figure>
+                    </div>
+            </div>
+                
+
+            
+            
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6"> 
+                <div class="box">
+                    <figure class="container">
+                        <img src="images\italy.jpg" alt="Italy" class="img-thumbnail"/>
+                        <figcaption>
+                          <h3>Italy</h3>
+                          <p></p>
+                          <p style="text-align: justify;"><mark style="font-size:x-large;color:#f395ff;background-color: black;"><i><b>Benvenuto in Italia!</b></i></mark> taly has a rich history that has impacted the culture and lifestyle throughout the country. You’ll find a lot of Graeco-Roman architecture with Biblical overtones throughout Italy, along with the occasional war monuments and statues in maritime regions like Modena.  Italian cuisine is extremely indulgent because it uses a lot of fat, which adds a punch of flavour to everything.</p><a href="#" class="more">Read More</a>
+                        </figcaption>
+                      </figure>
+                </div>
+            </div>
+
+
+            
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6"> 
+                <div class="box">
+                    <figure class="container">
+                        <img src="images\paris.jpg" alt="Paris" class="img-thumbnail"/>
+                        <figcaption>
+                          <h3>France</h3>
+                          <p></p>
+                          <p style="text-align: justify;"><mark style="font-size:x-large;color:#f395ff;background-color: black;"><i><b>L'amour de la France!!</b></i></mark>France entices people of all ages with some of the world's most iconic landmarks, world-class art and architecture, sensational food, stunning beaches, glitzy ski resorts, beautiful countryside and a staggering amount of history.”It is one of the most touristic countries thanks to its combination of history, food and wine, and landmarks that cannot be found anywhere else.</p><a href="#" class="more">Read More</a>
+                        </figcaption>
+                      </figure>
+                </div>
+            </div>
+
+
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6">     
+                    <div class="box">
+                        <figure class="container">
+                            <img src="images\korea.jpg" alt="Korea" class="img-thumbnail"/>
+                            <figcaption>
+                              <h3>South Korea</h3>
+                              <p></p>
+                              <p style="text-align: justify;"><mark style="font-size:x-large;color:#f395ff;background-color: black;"><i><b>Annyeong Haseyo Korea!</b></i></mark> South Korea boasts abundant tourist attractions. Tourists can experience distinctive harmony between historical cultural heritage and modern culture. With these preserved local identities, tourists can also explore and enjoy local cultures, natural environments, and unique food.</p><a href="#" class="more">Read More</a>
+                            </figcaption>
+                          </figure>
+               
+            </div>
+            </div>
+        
+        </div>
+    </div>
+</div>
+</section>
+ 
+<!--Modal-->
+<div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" style="opacity:0.8">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">About Us</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true" style="color: white">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p><h6 class="display-3" style="display:inline-block">‘A journey</h6> of a thousand miles begins with a single step – Lao Tzu’. That single step came for Travel with Us in the year 2013 – the year of new foundations and the year of new beginnings! With the idea to create a world of affordable tourism and to explore as well as innovate new avenues in the travel industry, we set out on a journey to achieve ‘Our Mission - Bharat Ki Sabse Badi Travel Company’, a feat we are strongly working towards everyday…'
+          Dear Guest,
+
+          Thank you for your continued support and the confidence that you have placed in us. As we build the foundation of success, we completely recognize the trust you place in us and with your continuous support, we assure to maintain our best-in-class service.
+          
+          We are greatly humbled and honoured to be receiving the President of India Category-I Award by Shri Pranab Mukherjee for Tour Operator, Rest of India and National Tourism Awards 2013-14 Category-III for Outstanding Performance in Tourism Sector and Domestic Tour Operator - Jammu & Kashmir Region.
+          
+          For Travel with Us Family, you are the centre of everything we do. Thus with every tour, we ensure working tirelessly to meet and outstrip your expectation in an enjoyable and responsible way.
+          
+          Innovations are what Kesari loves Creating!!!
+          Kesari provides more than 50 group tour products for Europe, almost 50 products for South East Asia, exclusive special tours for ladies, students, senior citizens, and trips to exotic destinations for newlyweds. Besides, we follow a continuous research for new products, themes and a range of travel upgradations that helps us serve the best to our guests.
+          
+          Whether it's a corporate tour, romantic delight, adventurous junkies or just a Chota Break , we have ample of tour choices to suit the most of your taste, requirement and budget. So Hurry up and book a Holiday with Kesari!
+          
+          Yours Sincerely,
+          
+          Travel Family
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Understood</button>
+      </div>
+    </div>
+  </div>
+</div>   
+
+
+    <!--Footer section-->
+    <footer>
+      <div class="row">
+        <div class="col-12 col-sm-12 col-ms-12 col-lg-12 col-xl-12">
+          <div id="slide1"><img id="whatsapp" src="images\whatsapp.png" style="height:50px;width:50px"></div>
+          <div id="slide2"><img id="instagram" src="images\instagram.png" style="height:50px;width:50px"></div>
+          <div id="slide3"><img id="twitter" src="images\twitter.png" style="height:50px;width:50px"></div>
+          <div id="slide4"><img id="facebook" src="images\face.png" style="height:50px;width:50px"></div>
+         <h3>Travel with Us</h3>
+         <p>Fly with us Anywhere. Your Dreams are our commands.</p>
+         <p>Call Us at: 9702541466 / 9762346667 </p>
+
+         <div class="Copyright">
+         &copy; Copyright <strong><span>Travel with Us</span></strong>. All Rights Reserved. T&C Apply.
+         </div>
+        </div>
+      </div>
+    </footer>
+    </body>
+</body>
+</html>
+
